@@ -1,6 +1,6 @@
 {
   "name": "aemmultisync",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "CLI wrapper for aemsync with multiple directory watchers",
   "main": "index.js",
   "scripts": {
