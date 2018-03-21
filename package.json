@@ -1,0 +1,32 @@
+{
+  "name": "aemmultisync",
+  "version": "0.0.1",
+  "description": "CLI wrapper for aemsync with multiple directory watchers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maximumdata/aemmultisync.git"
+  },
+  "keywords": [
+    "aemsync",
+    "aem"
+  ],
+  "author": "Mike Dettmer <mike@mikedettmer.com> (mikedettmer.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maximumdata/aemmultisync/issues"
+  },
+  "homepage": "https://github.com/maximumdata/aemmultisync#readme",
+  "dependencies": {
+    "aemsync": "^3.0.0",
+    "untildify": "^3.0.2",
+    "yargs": "^11.0.0"
+  },
+  "bin": {
+    "aemmultisync": "index.js",
+    "ams": "index.js"
+  }
+}
