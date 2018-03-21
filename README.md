@@ -25,4 +25,4 @@ This is really just a wrapper around [aemsync](https://github.com/gavoja/aemsync
 
 
 
-<small>made with 🤘 and 🖤</small>
+made with 🤘 and 🖤
