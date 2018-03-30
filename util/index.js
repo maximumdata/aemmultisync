@@ -14,7 +14,7 @@ class Util {
   }
 
   static enforceArray (input) {
-    if (typeof input != 'array') {
+    if (!Array.isArray(input)) {
       return this.csvToArray(input);
     }
     return input;
